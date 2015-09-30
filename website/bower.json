@@ -1,0 +1,29 @@
+{
+  "name": "trickjump-tutorial",
+  "version": "0.0.0",
+  "homepage": "https://github.com/haapanen/enemy-territory-trickjump-tutorial",
+  "authors": [
+    "Jussi Haapanen <haapanen.jussi@gmail.com>"
+  ],
+  "description": "A Wolfenstein: Enemy Territory trickjumping tutorial",
+  "main": "index.html",
+  "keywords": [
+    "W:ET",
+    "Wolfenstein",
+    "Enemy",
+    "Territory",
+    "Trickjump",
+    "Tutorial"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
