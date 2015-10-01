@@ -10,7 +10,6 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -30,7 +29,29 @@
             <hr>
         </div>
         <div class="row">
-            <div class="col-md-10 content">
+            
+            <div class="col-md-push-9 col-sm-push-9 col-md-3 col-sm-3">
+                <div class="affix" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
+                    <div id="navbar" class="navigation">
+                        <h3>Navigation</h3>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><a href="#strafejump">Strafejump</a></li>
+                            <li role="presentation"><a href="#overbounce">Overbounce</a></li>
+                            <li role="presentation"><a href="#fullbeat">Fullbeat</a></li>
+                            <li role="presentation"><a href="#halfbeat">Halfbeat</a></li>
+                            <li role="presentation"><a href="#inverted">Inverted</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="server">
+                        <h3>|999| Beginners</h3>
+                        <p>pracmap</p>
+                        <p>1/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-pull-3 col-sm-pull-3 col-md-9 col-sm-9 content">
                 <h1 id="strafejump">Strafejump</h1>
                 <p>The goal of this tutorial is to teach the very basics of strafejumping that is a crucial part of every trickjumpers
                     knowledge.</p>
@@ -39,7 +60,7 @@
                     another much faster. Trickjumping in Wolfenstein: Enemy Territory is essentially based on it. It is caused
                     by a bug in the game engine. The bug will be discussed later in the strafejumping theory section.</p>
                 <h2 id="how-to-perform-a-strafejump-">How to perform a strafejump?</h2>
-                <p>Basically a player can perform a strafejump just by pressing a strafe key (W or A) while moving forward just
+                <p>Basically a player can perform a strafejump just by pressing a strafe key (<kbd>W</kbd> or <kbd>A</kbd>) while moving forward just
                     before jumping. This will easily improve the speed gain by 15 %. Normally when a player sprints and jumps,
                     the maximum horizontal speed will be 352 units per second. Just by holding a strafe key while jumping
                     normally you can reach speeds of over 400 units per second.</p>
@@ -56,6 +77,8 @@
                     90 or more degrees to the left or right). Right before you jump you should quickly turn around 90 degrees
                     and while you are in the air you should move mouse slowly to that direction. This is demonstrated in
                     the video below.</p>
+                    
+                    <blockquote>See also: <a href="http://etjump.com/documentation#things-everyone-should-know">pmove_fixed</a></blockquote>
 
                 <hr>
 
@@ -142,29 +165,6 @@ m_forward
                 <hr>
                 <h3 id="inverted">Inverted</h3>
                 <hr>
-            </div>
-            <div class="col-md-2">
-                <div class="affix" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
-                    <div class="row">
-                        <div id="navbar" class="navigation">
-                            <h3>Navigation</h3>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li role="presentation" class="active"><a href="#strafejump">Strafejump</a></li>
-                                <li role="presentation"><a href="#overbounce">Overbounce</a></li>
-                                <li role="presentation"><a href="#fullbeat">Fullbeat</a></li>
-                                <li role="presentation"><a href="#halfbeat">Halfbeat</a></li>
-                                <li role="presentation"><a href="#inverted">Inverted</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="server">
-                            <h2>|999| Beginners</h2>
-                            <p>pracmap</p>
-                            <p>1/10</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
